@@ -2,6 +2,10 @@
     header .navbar-brand {
         padding-left: 1rem;
     }
+    header .row .col-md-5 img {
+        transform: rotate(0);
+         padding-top: 24vmin;
+    }
     .section-1 .row .col-md-6 .panel {
         position: initial;
         width: initial;
@@ -49,6 +53,11 @@
     footer .row .col-md-2 {
         margin-top: 8vmin;
     }
+    header .row .col-md-5 img {
+        transform: rotate(0);
+        padding-top: 0;
+        padding-bottom: 8vmin;
+    }
 }
 
 @media only screen and (max-width:320px) {
@@ -57,5 +66,10 @@
     }
     .section-4 .carousel-inner {
         margin-left: -14vmin;
+    }
+    header .row .col-md-5 img {
+        transform: rotate(0);
+        padding-top: 0;
+        padding-bottom: 8vmin;
     }
 }
